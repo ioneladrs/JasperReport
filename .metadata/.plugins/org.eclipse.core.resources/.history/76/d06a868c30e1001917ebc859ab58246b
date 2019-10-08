@@ -1,0 +1,40 @@
+package jasperReport;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class OracleConnection {
+	
+	public static Connection getOracleConnection() throws ClassNotFoundException, SQLException {
+		Connection conn = null;
+		try {
+		    Class.forName("oracle.jdbc.OracleDriver");
+		    conn = DriverManager.getConnection("jdbc:oracle:thin:@192.168.238.205:1521:aquariustest", "TRAINING", "TRAINING");
+		    Statement stmt = conn.createStatement();
+		    System.out.println("Connection established!");
+		    
+		}
+		catch (Exception ex)
+		{
+		    System.out.println("Exception: " + ex.getMessage() + "");
+
+		}
+		finally
+		{
+		    if (conn != null) {
+		        try {
+		            conn.close();   
+		        }
+		        catch (Exception ignored) {
+		            // ignore
+		        }
+		    }
+		}
+		return conn;
+	}
+	
+	
+	 
+}

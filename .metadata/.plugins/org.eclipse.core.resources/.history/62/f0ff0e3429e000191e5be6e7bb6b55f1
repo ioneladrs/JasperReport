@@ -1,0 +1,28 @@
+package task2;
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.util.ArrayList;
+ 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
+ 
+import net.sf.jasperreports.engine.JasperFillManager;
+import net.sf.jasperreports.engine.JasperPrint;
+import net.sf.jasperreports.engine.JasperReport;
+import net.sf.jasperreports.engine.data.JRMapCollectionDataSource;
+import net.sf.jasperreports.engine.util.JRLoader;
+import net.sf.jasperreports.view.JasperViewer;
+import org.apache.log4j.Logger;
+
+public class task2 {
+	private Logger logger = Logger.getLogger(task2.class);
+
+public task2() {
+public static void main(String[] args) {
+  
+}
+}
+
+

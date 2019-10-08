@@ -1,0 +1,15 @@
+package jasperReport3;
+
+import static net.sf.dynamicreports.report.builder.DynamicReports.stl;
+
+import net.sf.dynamicreports.report.builder.style.StyleBuilder;
+import net.sf.dynamicreports.report.constant.HorizontalAlignment;
+
+public class Templates {
+	
+
+	StyleBuilder boldStyle         = stl.style().bold();
+	StyleBuilder boldCenteredStyle = stl.style(boldStyle)
+            .setHorizontalAlignment(HorizontalAlignment.CENTER);
+
+}
