@@ -16,18 +16,16 @@ JasperReport is an open source Java reporting tool that can write to a variety o
 
 @ This task was performed using the JasperSoft - an application that is offering to you the interface to design your .jrxml file and after that you can import into your Java application. The second task is based on the design of this first task.
 
-* The jasper1 folder
+* The JasperReport folder
 
 2.Fill report programmatically with same jrxml template and data from JRMapCollectionDataSource, JRBeanCollectionDataSource, JRResultSetDataSource. See Examples of data sources. 
 
-* The JasperReport folder
+* The JasperReport3 folder
 
 3.Create DynamicReport with the same structure as in p.1, example is here 
 https://dynamicreports.readthedocs.io/en/master/GettingStarted.html#step-1-start
 https://dynamicreports.lbayer.com/examples/simplereport_step01/
 https://dynamicreports.readthedocs.io/en/master/GettingStarted.html
-
-* The JasperReport3 folder
 
 4. Create crosstab report using DynamicReport like 
 https://dynamicreports.lbayer.com/examples/crosstabreport/
